@@ -1,20 +1,273 @@
 [
   {
-    "value": "My Heart Will Go On",
-    "help": "Céline Dion",
-    "year": 1997,
-    "image": "https://img.cdandlp.com/2016/09/imgL/118320074.jpg"
+    "value": "Bad Romance",
+    "help": "Lady Gaga",
+    "year": 2009,
+    "image": "https://cdn.gaystarnews.com/uploads/2018/07/lady-gaga-bad-romance-billboard-music-video.jpg"
   },
   {
-    "value": "The Dark Side Of The Moon",
+    "value": "My heart will go on",
+    "help": "Céline Dion",
+    "year": 1997
+  },
+  {
+    "value": "The dark side of the moon",
     "help": "Pink Floyd",
-    "year": 1973,
-    "image": "https://miro.medium.com/max/2480/1*8FkvzbSdSJ4HNxtuZo5kLg.jpeg"
+    "year": 1973
   },
   {
     "value": "Relapse",
     "help": "Eminem",
-    "year": 2009,
-    "image": "https://i.imgur.com/ihf92hK.jpg"
+    "year": 2009
+  },
+  {
+    "value": "Every Breath You Take",
+    "help": "The Police",
+    "year": 1983
+  },
+  {
+    "value": "Losing My Religion",
+    "help": "REM",
+    "year": 1991
+  },
+  {
+    "value": "Feeling Good",
+    "help": "Nina Simone",
+    "year": 1965
+  },
+  {
+    "value": "12:51",
+    "help": "The Strokes",
+    "year": 2003
+  },
+  {
+    "value": "Californication",
+    "help": "Red Hot Chili Peppers",
+    "year": 1999
+  },
+  {
+    "value": "Billie Jean",
+    "help": "Michael Jackson",
+    "year": 1982
+  },
+  {
+    "value": "Evil",
+    "help": "Interpol",
+    "year": 2004
+  },
+  {
+    "value": "Summer of 69'",
+    "help": "Bryan Adams",
+    "year": 1984
+  },
+  {
+    "value": 1979,
+    "help": "Smashing Pumpkins",
+    "year": 1995
+  },
+  {
+    "value": "Everybody",
+    "help": "Backstreet Boys",
+    "year": 1997
+  },
+  {
+    "value": "Song 2",
+    "help": "Blur",
+    "year": 1997
+  },
+  {
+    "value": "Mr Vain",
+    "help": "Culture Beat",
+    "year": 1993
+  },
+  {
+    "value": "Scatman",
+    "help": "Scatman John",
+    "year": 1994
+  },
+  {
+    "value": "Clint Eastwood",
+    "help": "Gorillaz",
+    "year": 2001
+  },
+  {
+    "value": "Stairway To Heaven",
+    "help": "Led Zeppelin",
+    "year": 1971
+  },
+  {
+    "value": "Elephant",
+    "help": "Tame Impala",
+    "year": 2012
+  },
+  {
+    "value": "Buddy Holly",
+    "help": "Weezer",
+    "year": 1994
+  },
+  {
+    "value": "All Shook Up",
+    "help": "Elvis Prestley",
+    "year": 1957
+  },
+  {
+    "value": "If I Had A Million Dollars",
+    "help": "Barenaked Ladies",
+    "year": 1988
+  },
+  {
+    "value": "Wannabe",
+    "help": "Spice Girls",
+    "year": 1996
+  },
+  {
+    "value": "Sound Of Silence",
+    "help": "Simon And Garfunkel",
+    "year": 1964
+  },
+  {
+    "value": "American Woman",
+    "help": "The Guess Who",
+    "year": 1970
+  },
+  {
+    "value": "ABC",
+    "help": "The Jackson 5",
+    "year": 1970
+  },
+  {
+    "value": "Tragedy",
+    "help": "Bee Gees",
+    "year": 1979
+  },
+  {
+    "value": "Heart Of Gold",
+    "help": "Neil Young",
+    "year": 1972
+  },
+  {
+    "value": "Hooked On a Feeling",
+    "help": "Blue Swede",
+    "year": 1973
+  },
+  {
+    "value": "That's The Way",
+    "help": "KC and The Sunshine Band",
+    "year": 1975
+  },
+  {
+    "value": "Down Under",
+    "help": "Men At Works",
+    "year": 1981
+  },
+  {
+    "value": "Safety Dance",
+    "help": "Men Without Hats",
+    "year": 1982
+  },
+  {
+    "value": "September",
+    "help": "Earth, Wind and Fire",
+    "year": 1978
+  },
+  {
+    "value": "Mr Roboto",
+    "help": "Styx",
+    "year": 1983
+  },
+  {
+    "value": "Give A Lil Bit",
+    "help": "Supertramp",
+    "year": 1977
+  },
+  {
+    "value": "No Woman No Cry",
+    "help": "Bob Marley",
+    "year": 1976
+  },
+  {
+    "value": "I'm A Believer",
+    "help": "The Monkees",
+    "year": 1967
+  },
+  {
+    "value": "Fortunate Son",
+    "help": "CCR",
+    "year": 1969
+  },
+  {
+    "value": "The House Of The Rising Sun",
+    "help": "The Animals",
+    "year": 1964
+  },
+  {
+    "value": "Wouldn't It Be Nice",
+    "help": "The Beach Boys",
+    "year": 1966
+  },
+  {
+    "value": "California Dreamin'",
+    "help": "The Mamas And The Papas",
+    "year": 1965
+  },
+  {
+    "value": "Born To Be Wild",
+    "help": "Steppenwolf",
+    "year": 1968
+  },
+  {
+    "value": "Bye Bye Bye",
+    "help": "Nsync",
+    "year": 2000
+  },
+  {
+    "value": "Since U Been Gone",
+    "help": "Kelly Clarkson",
+    "year": 2002
+  },
+  {
+    "value": "Mr Brightside",
+    "help": "The Killers",
+    "year": 2003
+  },
+  {
+    "value": "Seven Nation Army",
+    "help": "The Whites Stripes",
+    "year": 2003
+  },
+  {
+    "value": "One More Time",
+    "help": "Daftpunk",
+    "year": 2007
+  },
+  {
+    "value": "Take Me Out",
+    "help": "Franz Ferdinand",
+    "year": 2004
+  },
+  {
+    "value": "Stronger",
+    "help": "Kanye West",
+    "year": 2005
+  },
+  {
+    "value": "Royals",
+    "help": "Lorde",
+    "year": 2013
+  },
+  {
+    "value": "Call Me Maybe",
+    "help": "Carlye Ray Jepsen",
+    "year": 2011
+  },
+  {
+    "value": "This Is America",
+    "help": "Childish Gambino",
+    "year": 2018
+  },
+  {
+    "value": "Uprising",
+    "help": "Muse",
+    "year": 2009
   }
 ]

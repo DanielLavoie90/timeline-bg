@@ -1,15 +1,15 @@
 <template>
     <div class="flex flex-col h-full w-full">
         <div class="flex flex-row flex-wrap">
-            <div @click="playSelectedCardStart"
-                 v-if="playerTurn && selectedCard"
-                 class="w-10 h-56 my-2 bg-blue-200"></div>
-            <div v-for="card in cards" :key="card.value" class="flex flex-row">
-                <card :card="card" :turned="true"/>
+            <div @click="playerTurn && selectedCard ? playSelectedCardStart() : null"
+                 class="w-10 h-56 my-2"
+                 :class="playerTurn && selectedCard ? 'bg-blue-200' : ''"/>
+            <template v-for="card in cards">
+                <card :card="card" :turned="true" :class="!playerTurn || !selectedCard ? 'mr-12' : ''"/>
                 <div @click="playSelectedCardAfter(card)"
                      v-if="playerTurn && selectedCard"
                      class="w-10 h-56 my-2 bg-blue-200"></div>
-            </div>
+            </template>
         </div>
 
         <div class="flex flex-row">
@@ -92,9 +92,11 @@
       },
       playSelectedCardStart() {
         console.log('played at start')
+        this.selectedCard = null
       },
       playSelectedCardAfter(card) {
         console.log('played after ' + card.value)
+        this.selectedCard = null
       },
       generateNewGame() {
 
@@ -118,7 +120,7 @@
         return this.window.height >= this.window.width
       },
       cards(){
-        return music.concat(music, music)
+        return music
       },
       playerTurn() {
         return true
