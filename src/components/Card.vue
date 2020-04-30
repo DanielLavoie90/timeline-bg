@@ -1,5 +1,5 @@
 <template>
-    <div class="w-40 h-56 m-2 p-2 card rounded-lg" :class="selected ? 'selected' : ''">
+    <div class="w-40 h-56 m-2 p-2 card rounded-lg" :class="selected ? 'selected' : (lastPlayed ? 'success' : '')">
         <div class="relative h-2/3 bg-no-repeat bg-center bg-cover rounded-lg rounded-b-none" :style="backgroundImage">
             <div v-if="turned"
                  class="absolute w-1/2 text-center card-year rounded-lg rounded-b-none">
@@ -22,6 +22,10 @@
     props:{
       card: {
         type: Object
+      },
+      lastPlayed: {
+        type: Boolean,
+        default: false
       },
       turned: {
         type: Boolean,
@@ -52,6 +56,14 @@
     .selected {
         border-color: #297ec0;
         background-color: #C8E2F7;
+    }
+
+    .fail {
+        background-color: red;
+    }
+
+    .success {
+        background-color: #297ec0;
     }
 
     .card-year {
